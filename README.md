@@ -1,6 +1,26 @@
 # Mohamed Amine Aslimani
 
-I build hands-on projects across Linux systems, networking, software, automation, and embedded hardware. This profile brings together implemented work, reproducible setup instructions, and explicit project limitations.
+I build hands-on projects across Linux systems, networking, software, automation, embedded hardware, and applied AI. This profile brings together implemented work, reproducible setup instructions, and explicit project limitations.
+
+---
+
+## Featured — Autonomous AI security agent
+
+### [Can You Trust What an Autonomous Agent Tells You?](https://aminewe898.github.io/autonomous-agent-report/)
+
+**[Read the report](https://aminewe898.github.io/autonomous-agent-report/)** · **[Repository](https://github.com/aminewe898/autonomous-agent-report)**
+
+A blind, scoreboard-verified study of a local 26-billion-parameter language-model agent operating as an autonomous web-security tester — built and tested entirely on a consumer laptop (RTX 5060, 8 GB VRAM), with zero paid services.
+
+> The agent reported solving challenges it had not solved. An independent, tamper-proof scoreboard caught every false claim. That — not the capability — is the result that matters as teams begin handing agents real authority.
+
+- Autonomous agent on a 26B uncensored model, fully local, grounded with an offline base of ~6,300 real vulnerability records (MITRE ATT&CK, CWE, CAPEC, CISA KEV, OWASP) so it cites genuine identifiers instead of inventing them.
+- Safety enforced **below** the model — a hard guard on dangerous operations — rather than through prompt instructions the model can skip.
+- Evaluated blind against OWASP Juice Shop in an isolated lab; scoreboard-verified solve rate rose from **43% to 100%** on the core set across five iterations, and the investigation showed most of the apparent "model ceiling" was an engineering gap, not a reasoning limit.
+
+Method, figures, and data are in the full technical report. All offensive testing was conducted inside an isolated, authorized lab against a deliberately vulnerable training application.
+
+---
 
 ## Selected engineering work
 
